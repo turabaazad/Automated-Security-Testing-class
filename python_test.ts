@@ -1,6 +1,6 @@
 function add(a: number, b: number): number {
-    return a + b;
+  return a + b;
 }
 
-let result = add(5, "10");
+let result:any = add(5, 10);
 console.log(result);
